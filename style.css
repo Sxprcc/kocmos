@@ -1,0 +1,214 @@
+*{
+
+  outline: 1px solid orange;
+
+}
+
+body {
+
+margin:0;
+
+padding: 0;
+
+}
+
+.zagolovok {
+
+margin: 0 auto; /*по вертикали_по горизонтали*/
+
+width: 1280px;
+
+height: 700px;
+
+border: 5px solid green;
+
+background-color: #222222;
+
+}
+
+.zagolovok2 {
+
+  padding-top: 120px;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 1200px;
+  height: 500px;
+  color: white;
+  
+  background-image: url("moon-rocket.png");
+  background-repeat: no-repeat;
+  background-position: 720px 30px;
+  }
+
+.kontakty {
+
+display: block;
+
+width: 1280px;
+
+height: 100px;
+
+display: flex;
+
+}
+
+.ikon {
+    
+width: 60px;
+
+height: 60px;
+
+margin: 25px;
+
+}
+
+.spisoc {
+
+display: flex;
+
+flex-wrap: wrap;
+
+color: white;
+
+margin-top: 30px;
+
+list-style: none;
+
+}
+
+.spisoc2 {
+
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  
+  margin-top: 30px;
+  margin-left: 520px;
+
+  list-style: none;
+  
+  }
+
+li {
+
+margin-right: 60px;
+
+}
+
+.btn {
+font-size: 100px;
+display: block;
+width: 200px;
+color: #222222;
+font-size: 14px;
+font-weight: bold;
+line-height: 50px;
+padding: 0 40;
+
+border: none;
+border-radius: 50px;
+background-color: #feca30;
+background-repeat: no-repeat;
+background-image: url("right-arrow-dark.png");
+background-position: 160px 17px;
+padding-left: 20px;
+}
+
+.site-main {
+
+  margin-top: 0;
+padding: 0;
+display: flex;
+list-style: none;
+height: 150px;
+color: #feca30;
+background-color: rgb(27, 27, 27);
+block-size: 100px;
+
+}
+
+.container {
+
+  margin: 0 auto;
+
+  width: 1280px;
+  
+  height: 120px;
+
+  background-color: rgb(10, 10, 10);
+  
+  }
+
+.fetur-menu {
+
+display: flex;
+margin: 0;
+padding: 0;
+list-style: none;
+color: white;
+text-align: right;
+
+}
+
+.site-center {
+
+  margin: 0 auto;
+
+width: 1280px;
+
+height: 700px;
+
+background-color: rgb(255, 255, 255);
+
+}
+
+.container2 {
+
+  display: flex;
+
+  margin: 0 auto;
+
+  width: 1280px;
+  
+  height: 700px;
+
+  background-color: rgb(255, 255, 255);
+  
+  }
+
+.fetur-menu2 {
+
+display: flex;
+
+}
+
+.tecst {
+
+  font-size: 23x;
+  margin-left: 15px;
+  
+  }
+
+.vzyat {
+
+  display: flex;
+  font-size: larger;
+
+}
+
+.vzyat li::before {
+
+  color: #feca30;
+  font-size: 20px;
+  padding-right: 20px;
+  content: "\2022";
+
+}
+.nado {
+  list-style: none;
+}
+
+.nenado {
+  list-style: none;
+}
